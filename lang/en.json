@@ -1,0 +1,28 @@
+{
+
+  "notes": "Notes",
+  "note": "Note",
+  "note_board": "Add your notes to organize your life ",
+  "empty_note": "Can't add an empty note !",
+  "take_note": "Take a note",
+  "add_note": "Add note",
+  "update_note": "Update",
+  "search": "search",
+  "language": "Language",
+  "share": "Share",
+  "password": "Password",
+  "create_password": "Create password",
+
+  "change_password": "Change password",
+  "old_password": "Old password",
+  "new_password": "New password",
+  "wrong_password": "Password is not correct !",
+  "empty_password": "password can't be empty !",
+  "short_password": "Can't be less than 5 characters !",
+  "ok": "Ok",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "delete_all": "Delete all",
+  "secret": "Private notes"
+
+}
