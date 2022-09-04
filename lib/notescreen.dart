@@ -199,14 +199,14 @@ class NoteScreen extends StatelessWidget {
                                     });
                                   }
                                 },
-                                child:const Text('Ok'),
+                                child: Text( getTranslated(context, 'ok')!,),
                               ),
                               TextButton(
                                 onPressed: () {
                                   passController.clear();
                                   Navigator.pop(context);
                                 },
-                                child:const Text('Cancel'),
+                                child: Text(getTranslated(context, 'cancel')!,),
                               ),
                             ],
                           );
