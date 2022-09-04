@@ -16,7 +16,7 @@ class _splash_ScreenState extends State<splash_Screen> {
   Timer? timer;
   void goTo()
   {
-    timer= Timer(const Duration(seconds: 5), (){
+    timer= Timer(const Duration(seconds: 4), (){
       Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(
@@ -74,7 +74,6 @@ class _splash_ScreenState extends State<splash_Screen> {
           child: AnimatedTextKit(
           animatedTexts: [
             WavyAnimatedText('Smart Note',speed: Duration(milliseconds: 300)),
-           // WavyAnimatedText('Look at the waves',speed: Duration(milliseconds: 100)),
           ],
           isRepeatingAnimation: true,
         ),

@@ -82,8 +82,7 @@ class secretNoteScreen extends StatelessWidget {
                                           obscureText: cubit.isPass,
                                           controller: oldPassController,
                                           decoration: InputDecoration(
-                                            labelText: getTranslated(
-                                                context, 'old_password')!,
+                                            labelText: getTranslated( context, 'old_password')!,
                                             border: const OutlineInputBorder(),
                                             suffixIcon: IconButton(
                                               onPressed: () {
@@ -131,11 +130,11 @@ class secretNoteScreen extends StatelessWidget {
                                           ),
                                           validator: (value) {
                                             if (value!.isEmpty) {
-                                              return getTranslated(
-                                                  context, 'empty_password')!;
+                                              return getTranslated(context, 'empty_password')!;
+
                                             } else if (value.length < 5) {
-                                              return getTranslated(
-                                                  context, 'short_password')!;
+
+                                              return getTranslated(context, 'short_password')!;
                                             }
                                             return null;
                                           },

@@ -158,7 +158,7 @@ class NoteScreen extends StatelessWidget {
                                   obscureText: cubit.isPass,
                                   controller: passController,
                                   decoration: InputDecoration(
-                                    hintText: 'Password',
+                                    hintText: getTranslated(context, 'password')!,
                                     border:const OutlineInputBorder(),
                                     suffixIcon: IconButton(
                                       onPressed: () {
@@ -172,9 +172,9 @@ class NoteScreen extends StatelessWidget {
                                   ),
                                   validator: (value) {
                                     if (value!.isEmpty) {
-                                      return "password can't be empty !";
+                                      return getTranslated(context, 'empty_password')!;
                                     } else if (value.length < 5) {
-                                      return "Can't be less than 5 characters !";
+                                      return getTranslated(context, 'short_password')!;
                                     }
                                     return null;
                                   },
