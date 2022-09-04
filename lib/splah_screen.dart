@@ -73,7 +73,7 @@ class _splash_ScreenState extends State<splash_Screen> {
           ),
           child: AnimatedTextKit(
           animatedTexts: [
-            WavyAnimatedText('Smart notes',speed: Duration(milliseconds: 300)),
+            WavyAnimatedText('Smart Note',speed: Duration(milliseconds: 300)),
            // WavyAnimatedText('Look at the waves',speed: Duration(milliseconds: 100)),
           ],
           isRepeatingAnimation: true,
